@@ -1,10 +1,11 @@
 ```uml
 @startuml
+start
 :天気情報 ←　weather;
 
-if(weather = 0)
+if(weather)then(0)
 :快晴です;
-elseif(weather = 1)
+elseif(weather)then(1)
 :曇りです;
 else
 :不明です;
