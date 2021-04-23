@@ -5,7 +5,7 @@ start
 
 if(weather)then(0)
 :快晴です;
-elseif(weather)then(1)
+elseif then(1)
 :曇りです;
 else
 :不明です;
