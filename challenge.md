@@ -3,8 +3,9 @@
 start
 :天気情報 ←　weather;
 
-if(weather = 0)
+if(weather = 0) then(はい)
 :快晴です;
+else(いいえ）
 elseif(weather = 1) 
 :曇りです;
 elseif(weather = 2) 
