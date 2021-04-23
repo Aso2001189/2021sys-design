@@ -3,11 +3,11 @@
 start
 :天気情報 ←　weather;
 
-if(weather)then(0)
+if(weather = 0)
 :快晴です;
-elseif(weather) then(1)
+elseif(weather = 1) 
 :曇りです;
-elseif(weather) then(2)
+elseif(weather = 2) 
 :雨です;
 else 
 :不明です;
