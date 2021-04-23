@@ -5,8 +5,10 @@ start
 
 if(weather)then(0)
 :快晴です;
-else then(1)
+elseif(weather) then(1)
 :曇りです;
+elseif(weather) then(2)
+:雨です;
 else 
 :不明です;
 endif
