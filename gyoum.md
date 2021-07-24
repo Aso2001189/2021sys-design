@@ -1,4 +1,4 @@
-```uml
+'''uml
 @startuml
 start
 ユーザー -> Webサーバー : 検索（商品名）
@@ -8,4 +8,4 @@ DBサーバー -> Webサーバー : 検索結果
 Webサーバー -> ユーザー : 検索結果
 @enduml
 stop
-uml```
+uml'''
